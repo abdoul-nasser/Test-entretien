@@ -1,0 +1,47 @@
+@media (min-width: 1200px){
+.container{
+    max-width: 1306px !important;
+}
+}
+
+@media (max-width: 770px) and (max-width: 768px){
+  .positionn{
+    left: 10px;
+  }
+  .maposition {
+    margin-left: 37%;
+  }
+  }
+
+  @media (max-width: 640px) and (max-width: 770px){
+    .positionn{
+      left: 0;
+    }
+    .maposition {
+      margin-left: 12%;
+    }
+}
+@media (max-width: 498px) and (max-width: 640px){
+  .positionn{
+    left: 0;
+  }
+  .cardposition{
+    width: 50%;
+  }
+  .maposition {
+    margin-left: 5%;
+    width: 50%;
+  }
+  }
+  @media (max-width: 1px) and (max-width: 6498px){
+    .positionn{
+      left: 0;
+    }
+    .cardposition{
+      width: 30%;
+    }
+    .maposition {
+      margin-left: 5%;
+      width: 30%;
+    }
+    }

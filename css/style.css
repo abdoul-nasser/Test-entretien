@@ -1,0 +1,240 @@
+/* Importation de la font metropolis depuis le site www.cdnfonts.com */
+@import url('https://fonts.cdnfonts.com/css/metropolis-2');
+
+
+body{
+    font-family: 'Metropolis', sans-serif;
+}
+
+
+
+
+/* Liste de mes couleurs*/
+.orange{
+    color: #ff5634;
+}
+.darke{
+    color: #121212;
+}
+
+
+/* Liste des boutons*/
+.btnprimary{
+    background-color: #ff5634;
+    color: #fff;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    border: none;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+}
+.btnprimary:hover{
+    background-color: #e13f1f;
+    border-radius: 12px;
+}
+.btnsecondary{
+    border-radius: 12px;
+    padding: 18px 24px;
+    font-size: 16px;
+    line-height: 1.125em;
+    order: 1px solid #ededed;
+    background-color: #fff;
+    box-shadow: 0 2px 6px 0 rgba(20, 20, 43, .1);
+    color: #121212;
+    text-align: center;
+    border-radius: 16px;
+    padding: 26px 38px;
+    font-weight: 500;
+    line-height: 1.111em;
+    transition: border-color .3s, background-color .3s, color .3s;
+}
+.btnsecondary:hover{
+    background-color: #e13f1f;
+    color: #fff;
+    border-radius: 12px;
+    border: 0.1rem solid #ededed;
+}
+
+
+/* alignement horizontal */
+.alig{
+    vertical-align: middle;
+}
+.alignement{
+    justify-content: space-around;
+}
+
+
+
+
+/* les classes des titres generaux*/
+.smalltite{
+    font-size: 1.1rem;
+    color: #ff5634;
+    font-weight: 400;
+    font-weight: 700;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+}
+.bigtittle{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 3.87rem;
+    font-weight: 700;
+    line-height: 1.161em;
+}
+.secondtitle{
+    margin-bottom: 16px;
+    font-size: 2.7rem;
+    font-weight: 700;
+    line-height: 1.227em;
+}
+.terstitlte{
+    margin-bottom: 16px;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.227em;
+}
+.fortitlte{
+    margin-bottom: 16px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.227em;
+    margin-top: 1.75rem;
+    margin-bottom: 1.5rem;
+}
+.fivetitlte{
+    margin-bottom: 16px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.227em;
+}
+
+.paragraph{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.667em;
+    color: #656565;
+}
+.secondparagraph{
+    font-size: 18px;
+    font-weight: 450;
+    line-height: 1.667em;
+    color: #656565;
+}
+
+/* Header*/
+.listheader{
+    border-bottom: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 1rem;
+    padding-left: 0;
+    padding-bottom: 0;
+}
+.listheader:hover{
+    color: #ff5634;
+}
+
+
+/* background heroheader */
+.heroimg{
+    background-image: url("../assets/images/livreur-cady.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.positionn{
+    position: absolute;
+    z-index: 1;
+    top: 38%;
+    left: -5%;
+
+}
+.cardposition{
+    border-radius: 12px;
+    width: 50%;
+}
+.maposition{
+    position: absolute;
+    margin-top: 35%;
+    margin-left: 20%;
+    border-radius: 12px;
+}
+
+
+/* contnumber*/
+.number{
+    font-size: 3.3rem;
+    font-weight: 700;
+    line-height: 1.179em;
+}
+.textcomt{
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 1.111em;
+}
+
+
+/* marge des block */
+.blockpadding{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+/* ABOUT US*/
+.imgaboutus{
+    border-radius: 12px;
+}
+
+/* OUR JOURNEY */
+.cardjourney{
+    border-radius: 12px;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, .4);
+    padding: 2rem;
+    margin-bottom: 3rem;
+}
+
+/* PRESS & NEWS */
+.cardpress{
+    border-radius: 1.2rem;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, .4);
+    padding: 5rem 3rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+/* Footer*/
+.svgfooter{
+    border-radius: 1.4rem;
+}
+.listfooter{
+    border-bottom: none;
+    color: #656565;
+    font-weight: 500;
+    font-size: 1.075rem;
+    padding-left: 0;
+    padding-bottom: 0;
+}
+.listfooter:hover{
+    color: #ff5634;
+}
+.listfooterer{
+    border-bottom: none;
+    text-transform: capitalize;
+    color: #ff5634;
+    font-weight: 500;
+    padding-left: 0;
+    font-size: 1.075rem;
+    text-decoration: underline;
+    padding-bottom: 1rem;
+}
+.listfooterer:hover{
+    color: #121212;
+}
